@@ -1,0 +1,77 @@
+<!--index.html
+            GUI Assignment: Creating Your First Web Page
+            Ankit Lalotra, UMass Lowell Computer Science, ankit_lalotra@student.uml.edu
+            Copyright (c) 2021 by Lalotra. All rights reserved. May be freely copied or
+            excerpted for educational purposes with credit to the author.
+            updated by AL on July 13, 2021 at 10:07 AM.
+            
+            Required:
+            • Some informative reading/interesting site to browse - Done
+            • Working links - Done
+            • Images - Done
+            • Tables - Done
+            • Styling with CSS - Done
+            used css as a class and as style in the header
+-->
+<!doctype html>  <!-- Main Structure here excluding the links and the pictures.-->
+<html lang="en">
+    <head>
+        <meta charset = "utf-8">
+        <link rel="stylesheet" href="style.css">
+        <title> Ankits first GUI webpage </title> <!--Title for the webpage-->
+        <style>
+            h1 
+            {
+                background-color:chartreuse; 
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Welcome to my first webpage!</h1> <!-- Also used css for the header-->
+        <p class="p-Welcome">Welcome to my first webpage.</p>
+        <script src="js/scripts.js"></script>
+        <a href="Contact.html">Click here to learn a little bit about me</a> 
+        <!-- If you need to access a folder you would simply have to <a herf="(foldername)/Valorantlink.html"-->
+        <!-- If i did Click here to learn a little bit about <a href="Contact.html"> me</a> only the me would be clickable to visit the page! -->   
+        <!--<p class="p-welcome">Game page!</p>--> 
+        <h2>Game Page!</h2>
+        <img  src="img/Valorant (2).jpg" width="90px">
+        Visit my Favorite game <a href="https://playvalorant.com/"target="_blank">here</a> 
+        <!--<p class="p-welcome">Twitch Page!</p>-->
+        <h3>Twitch page!</h3>
+        <img  src="img/Twitch.jpg" width="90px">
+        <a href="https://www.twitch.tv/theflashkiller0"target="_blank">Click here to visit my Twitch page!</a> 
+        <!--<p class="p-Welcome">Tesla Referral</p>-->
+        <h4>Tesla Referral!</h4>
+        <img class="img-Tesla" src="img/Tesla.jpg"> <!-- i did this one using css-->
+        <a href="http://ts.la/ankit31699" target="_blank">If you are by any chance intrested in buying a tesla please click here to use my referral code!</a>
+        
+        <!--target="_blank use that to have the link open in a different tab so its more convinent-->
+        <!--<div class="img-Tesla>"></div>-->
+        <!--<p class="p-Welcome">information Table</p>-->
+        <h5>Information Table!</h5>
+        <table>
+            <tr> <!-- table row-->
+                <th> First Name</th><!--Table headder-->
+                <th> Last Name</th><!--Table headder-->
+                <th> Gender</th><!--Table headder-->
+            </tr>
+            <tr> <!-- table row-->
+                <td>Ankit</td> <!-- Table data-->
+                <td>Lalotra</td> <!-- Table data-->   <!-- You can keep copy pasting more of this table data as a templete to have more people or data added-->
+                <td>Male</td> <!-- Table data-->
+            </tr>
+            <tr> <!-- table row-->
+                <td>Rohit</td> <!-- Table data-->
+                <td>Lalotra</td> <!-- Table data-->   
+                <td>Male</td> <!-- Table data-->
+            </tr>
+        </table>
+            
+    </body>
+    </html>
+
+        
+
+            
