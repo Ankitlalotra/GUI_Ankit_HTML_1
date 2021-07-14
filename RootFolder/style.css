@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 1000px; 
+}
+
+.img-Tesla {
+    width: 100px;
+}
+h2 {
+   font-size: large;
+}
+h3 {
+    font-size: large;
+ }
+h4 {
+    font-size: large;
+ }
+h5 {
+    font-size: large;
+ }
